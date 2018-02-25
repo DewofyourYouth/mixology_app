@@ -1,10 +1,10 @@
 package com.dewofyouryouth.mixology;
 
-import android.content.res.Resources;
-import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
+import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void  backToMain(View view){
         setContentView(R.layout.activity_main);
+    }
+
+    public void addDrink(View view){
+
     }
 
 }

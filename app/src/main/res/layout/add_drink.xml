@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dewofyouryouth.mixology.MainActivity">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,10 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/back_to_main"
+        android:id="@+id/add_drink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Drink" />
+        android:text="Add Drink"
+        android:onClick="addDrink" />
     <Button
         android:id="@+id/back_to_main"
         android:layout_width="wrap_content"
@@ -27,3 +34,4 @@
 
 
 </LinearLayout>
+</android.support.constraint.ConstraintLayout>
