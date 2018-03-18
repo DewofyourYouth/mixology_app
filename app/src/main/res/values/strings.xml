@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mixology</string>
-    <string name="title_activity_add_drink">AddDrink</string>
-    <string name="title_activity_see_drinks">SeeDrinks</string>
+    <string name="title_activity_add_drink">Add Drink</string>
+    <string name="title_activity_see_drinks">Browse Drinks</string>
     <string name="add_drink">Add New Drink</string>
     <string name="see_drinks">Browse Drinks</string>
 </resources>

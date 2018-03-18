@@ -20,7 +20,7 @@ public class SeeDrinks extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "This will make take you to the add drink screen", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
