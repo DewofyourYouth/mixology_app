@@ -36,30 +36,30 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/new_drink"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginHorizontal="20dp"
-                android:layout_above="@+id/see_drinks"
-                android:fontFamily="@font/rock_salt"
-                android:onClick="goToAddDrink"
-                android:text="@string/add_drink"
-                android:textAllCaps="true" />
+        <Button
+            android:id="@+id/new_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/see_drinks"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="sans-serif"
+            android:onClick="goToAddDrink"
+            android:text="@string/add_drink"
+            android:textAllCaps="true" />
 
-            <Button
-                android:id="@+id/see_drinks"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="100dp"
-                android:layout_marginHorizontal="20dp"
-                android:layout_alignParentBottom="true"
-                android:fontFamily="@font/rock_salt"
-                android:onClick="goToSeeDrinks"
-                android:text="@string/see_drinks"
-                android:textAllCaps="true" />
+        <Button
+            android:id="@+id/see_drinks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="sans-serif"
+            android:onClick="goToSeeDrinks"
+            android:text="@string/see_drinks"
+            android:textAllCaps="true" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
