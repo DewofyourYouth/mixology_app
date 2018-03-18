@@ -1,5 +1,6 @@
 package com.dewofyouryouth.mixology;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,23 +18,17 @@ public class MainActivity extends AppCompatActivity {
 
 // Sends user to the the "add_drink.xml" layout
     public void goToAddDrink(View view){
-        setContentView(R.layout.add_drink);
-
+        Intent i = new Intent(this, AddDrink.class);
+        startActivity(i);
     }
 
 // Sends user to the "see_drinks.xml" layout
     public void goToSeeDrinks(View view){
-        setContentView(R.layout.see_drinks);
-
+        Intent i = new Intent(this, SeeDrinks.class);
+        startActivity(i);
     }
 
-// Sends user back to "activity_main.xml" layout
-    public void  backToMain(View view){
-        setContentView(R.layout.activity_main);
-    }
 
-    public void addDrink(View view){
 
-    }
 
 }
