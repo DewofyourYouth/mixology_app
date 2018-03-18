@@ -29,7 +29,7 @@
             android:gravity="center"
             android:padding="20dp"
             android:paddingBottom="30dp"
-            android:text="Mix-o-logy"
+            android:text="@string/app_name"
             android:textAllCaps="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/white"
@@ -45,7 +45,7 @@
                 android:layout_above="@+id/see_drinks"
                 android:fontFamily="@font/rock_salt"
                 android:onClick="goToAddDrink"
-                android:text="Add New Drink"
+                android:text="@string/add_drink"
                 android:textAllCaps="true" />
 
             <Button
@@ -58,7 +58,7 @@
                 android:layout_alignParentBottom="true"
                 android:fontFamily="@font/rock_salt"
                 android:onClick="goToSeeDrinks"
-                android:text="Browse Drinks"
+                android:text="@string/see_drinks"
                 android:textAllCaps="true" />
 
     </RelativeLayout>
